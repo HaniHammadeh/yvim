@@ -1,0 +1,6 @@
+---
+# tasks file for yvim
+- name: copy the vimrc template file
+  template:
+    src: vimrc.j2
+    dest: "{{home_dir_path}}/.vimrc" 

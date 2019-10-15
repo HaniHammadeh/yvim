@@ -1,0 +1,3 @@
+---
+# defaults file for yvim
+dic_path: /home/ansible/dic.txt
